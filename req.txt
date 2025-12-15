@@ -1,0 +1,17 @@
+telegram
+python-telegram-bot[ext]
+python-telegram-bot[all]==21.0
+google-cloud-storage
+PyPDF2
+python-docx
+transformers
+torch
+TensorFlow
+huggingface_hub[hf_xet]
+rake_nltk
+nltk[all]
+keybert
+langdetect
+gspread
+oauth2client
+openpyxl

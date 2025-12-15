@@ -19,12 +19,12 @@ from openpyxl import Workbook
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-TOKEN = "MY_SECRET_TOKEN"
+TOKEN = "MY_TOKEN"
 DOWNLOAD_DIR = "downloads"  # Директория для временного хранения файлов
 MAX_MESSAGE_LENGTH = 4096
 MAX_MODEL_TOKENS = 1024
 rake_extractor = Rake()  # Инициализируем RAKE для ключевых слов
-file_path = "MyTable"
+file_path = "MyTable.xlsx"
 sheet_name = "Лист1"
 
 # Создаем директорию для загрузок, если её нет
